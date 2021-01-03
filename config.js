@@ -15,7 +15,9 @@
             $.ajax({
                 url:"http://localhost/appAjax/ajax_sql/ajax.php",
                 data: params,
+                contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
                 type:"POST",
+                // Loại dữ liệu bạn đang mong đợi trả lại từ máy chủ. (xml/html/json/jsonp/text/script)
                 dataType:"json",
                 // mặc định là bất đồng bộ
                 async: true,
