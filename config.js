@@ -19,6 +19,8 @@
                 dataType:"json",
                 // mặc định là bất đồng bộ
                 async: true,
+                // cache mặc định là true lưu cache vào trình duyệt
+                cache : false,
                 beforeSend:function () {
                     alert("Trước khi gửi request bằng ajax");
                 },
