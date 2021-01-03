@@ -45,7 +45,7 @@
                 complete: function (xhr, status) {
                     alert("ajax hoàn tất");
                 }
-            });
+            }); // end method ajax
 
-        });
-    });
+        }); // end loadmore onclick
+    }); // end document ready
