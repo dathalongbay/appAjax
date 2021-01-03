@@ -17,6 +17,8 @@
                 data: params,
                 type:"POST",
                 dataType:"json",
+                // mặc định là bất đồng bộ
+                async: true,
                 beforeSend:function () {
                     alert("Trước khi gửi request bằng ajax");
                 },
